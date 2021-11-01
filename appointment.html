@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
-    <link rel="stylesheet" href="css/appointment.css">
     <link rel="stylesheet" href="css/index-style.css">
+    <link rel="stylesheet" href="css/appointment.css">
     <title>Appointment</title>
 </head>
 <body class="m-0">
@@ -160,12 +160,12 @@
     
                 <div class="section--book--select">
                     <form class="row">
-                        <div class="col-12 col-lg-6">
-                            <input type="text" class="form-control form-control-lg" id="name" placeholder="Name">
+                        <div class="col-12 col-lg-6 purple-color">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
                         </div>
-                        <div class="col-12 col-lg-6 form-group">
+                        <div class="col-12 col-lg-6 purple-color">
                             <div class="select">
-                                <select class="select-element form-control form-control-lg custom-select" id="gender">
+                                <select class="select-element form-control custom-select" id="gender">
                                     <option selected>Gender</option>
                                     <option value="female">Female</option>
                                     <option value="male">Male</option>
@@ -174,25 +174,25 @@
                             </div>
                         </div>
                            
-                        <div class="col-12 col-lg-6">
-                          <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Email">
+                        <div class="col-12 col-lg-6 purple-color">
+                          <input type="email" class="form-control " id="inputEmail" placeholder="Email">
                         </div>
     
-                        <div class="col-12 col-lg-6">
-                            <input type="tel" class="form-control form-control-lg" id="phonenumber" placeholder="Phone">
+                        <div class="col-12 col-lg-6 purple-color">
+                            <input type="tel" class="form-control" id="phonenumber" placeholder="Phone">
                         </div>
     
-                        <div class="col-12 col-lg-6">
-                          <input type="date" class="form-control form-control-lg" id="date">
+                        <div class="col-12 col-lg-6 purple-color">
+                          <input type="date" class="form-control" id="date">
                         </div>
     
-                        <div class="col-12 col-lg-6">
-                          <input type="time" class="form-control form-control-lg" id="time">
+                        <div class="col-12 col-lg-6 purple-color">
+                          <input type="time" class="form-control" id="time">
                         </div>
     
-                        <div class="col-12 col-lg-6 form-group">
+                        <div class="col-12 col-lg-6 purple-color">
                             <div class="select">
-                                <select class="select-element form-control form-control-lg custom-select" id="doctor">
+                                <select class="select-element form-control custom-select" id="doctor">
                                     <option selected>Doctor</option>
                                     <option value="001">Dr. Ben Carson</option>
                                     <option value="004">Dr. Norman Borlaug </option>
@@ -203,9 +203,9 @@
                             </div>
                         </div>
     
-                        <div class="col-12 col-lg-6 form-group">
+                        <div class="col-12 col-lg-6 purple-color">
                             <div class="select">
-                                <select class="select-element form-control form-control-lg custom-select" id="department">
+                                <select class="select-element form-control custom-select" id="department">
                                     <option selected>Department</option>
                                     <option value="001">Gynaecology</option>
                                     <option value="004">Paediatrics </option>
@@ -218,7 +218,7 @@
                             </div>
                         </div>
                         
-                        <div class="col-12">
+                        <div class="col-12 purple-color">
                             <textarea class="form-control" id="message" rows="8" placeholder="Message"></textarea>
                         </div>
 
@@ -325,7 +325,7 @@
                         <div class="col--content col--content__primary position-relative">
                             <div class="section--contact--info--item color--accent">
                                 <img src="images/icons/location.svg" alt="Phone image">
-                                <h3 class="text-uppercase display--4 fw-bold">Location</h3>
+                                <h3 class="text-uppercase display--4 fw-bold text-light">Location</h3>
                                 <p>0123 Some place<br/> 9876 Some country</p>
                             </div>
                             <div class="content__shade"></div>
@@ -387,25 +387,23 @@
                     </div>
                     <div class="pg-footer-news col-12 col-sm-6 col-lg-3">
                         <p  class="text-capitalize fw-bold display--4 mb-4">newsletter</p>
-                        <div class="pg-footer-news-email rounded overflow-auto">                        
-                            <div class=" position-relative d-inline-block">
-                                <input class="rounded p-2 pe-5 border-0 form-control" type="text" placeholder="Enter your email address " >
-                                <img class= "selector selector__adjust" src="images/icons/arrow.svg" alt="select">
-                            </div>
+                        <div class="input-box my-3">
+                            <input type="text" placeholder="Enter your email Address" class="form-group mb-0 pr-5 px-3 appointment-btn2">
+                            <img src="images/icons/Vector8.png" alt="icons">
+                            </input>
                         </div>
-                            
-                       
-                    </div>
                 </div>
                 <hr class="">
-                <div class="pg-footer-bootom row justify-content-between pt-4 g-3">
-                    <div class="pg-footer-copyright col-12 col-md-6 ">
-                        <p>&copy 2021 MEDDICAL All Rights Reserved by PNTEC-LTD</p>
+                <div class="row">
+                    <div class="col-8">
+                        <p>@ 2021 Hospital's name All Rights Reserved by PNTEC-LTD </p>
                     </div>
-                    <div class="pg-footer-socials col-12 col-md-6 color--accent display--3">
-                        <span><i class="fab fa-linkedin px-1" aria-hidden="true"></i></span>
-                        <span><i class="fab fa-facebook px-1" aria-hidden="true"></i></span>
-                        <span><i class="fab fa-instagram px-1" aria-hidden="true"></i></span>
+                    <div class="col-4 text-right">
+                        <div class="footer-icon">
+                            <img src="images/icons/linkedin.png" alt="icons">
+                            <img src="images/icons/Vector7.png" alt="icons">
+                            <img src="images/icons/Vector6.png" alt="icon">
+                        </div>
                     </div>
                 </div>
             </div>

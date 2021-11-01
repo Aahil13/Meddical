@@ -277,10 +277,6 @@ body {
   padding-right: 0;
 }
 
-.book--schedule .section--book--select .row > *:hover {
-  opacity: 0.8;
-}
-
 .book--schedule .section--book--select .row > * input,
 .book--schedule .section--book--select .row > * select {
   border-width: 0;
