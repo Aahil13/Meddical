@@ -1,52 +1,52 @@
 let illnesses = [
     {
-        imgSrc: "vector4",
+        img: "https://i.postimg.cc/cCsCN8XW/Vector4.png",
         name:'Neurology'
     },
     {
-        imgSrc: "vector4",
+        img: "https://i.postimg.cc/cCsCN8XW/Vector4.png",
         name:'Bones',
         color:'purple-color',
         white:'text-light'
     },
     {
-        imgSrc: "vector4",
+        img: "https://i.postimg.cc/cCsCN8XW/Vector4.png",
         name:'Oncology'
     },
     {
-        imgSrc: "vector4",
+        img: "https://i.postimg.cc/cCsCN8XW/Vector4.png",
         name:'Otorhinolaryngology'
     },
     {
-        imgSrc: "vector4",
+        img: "https://i.postimg.cc/cCsCN8XW/Vector4.png",
         name:'Ophthalmology'
     },
     {
-        imgSrc: "vector4",
+        img: "https://i.postimg.cc/cCsCN8XW/Vector4.png",
         name:'Cardiovascular'
     },
     {
-        imgSrc: "vector4",
+        img: "https://i.postimg.cc/cCsCN8XW/Vector4.png",
         name:'Pulmonology'
     },
     {
-        imgSrc: "vector4",
+        img: "https://i.postimg.cc/cCsCN8XW/Vector4.png",
         name:'Renal Medicine'
     },
     {
-        imgSrc: "vector4",
+        img: "https://i.postimg.cc/cCsCN8XW/Vector4.png",
         name:'Gastroenterology'
     },
     {
-        imgSrc: "vector4",
+        img: "https://i.postimg.cc/cCsCN8XW/Vector4.png",
         name:'Urology'
     },
     {
-        imgSrc: "vector4",
+        img: "https://i.postimg.cc/cCsCN8XW/Vector4.png",
         name:'Dermatology'
     },
     {
-        imgSrc: "vector4",
+        img: "https://i.postimg.cc/cCsCN8XW/Vector4.png",
         name:'Gynaecology'
     }
 ]
@@ -60,7 +60,7 @@ illnesses.forEach( e=>{
         <div class="card h-100 col-12 col-sm-6 col-lg-3 ${e.color}">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item py-5 ${e.color}">
-                    <img src="images/icons/${e.imgSrc}.png" alt="icon">
+                    <img src="${e.img}" alt="icon">
                     <p class="${e.white}">${e.name}</p>
                 </li>
             </ul>
@@ -78,28 +78,28 @@ let news = [
         date:"Monday 05, September 2021 | By Author",
         text:"This Article's Title goes Here, but not too long.",
         eye:"",
-        love:"",
+        love:"https://i.postimg.cc/XJ510rXs/Vector12.png",
     },
     {
         img:"",
         date:"Monday 05, September 2021 | By Author",
         text:"This Article's Title goes Here, but not too long.",
         eye:"",
-        love:"",
+        love:"https://i.postimg.cc/XJ510rXs/Vector12.png",
     },
     {
         img:"",
         date:"Monday 05, September 2021 | By Author",
         text:"This Article's Title goes Here, but not too long.",
         eye:"",
-        love:"",
+        love:"https://i.postimg.cc/XJ510rXs/Vector12.png",
     },
     {
         img:"",
         date:"Monday 05, September 2021 | By Author",
         text:"This Article's Title goes Here, but not too long.",
         eye:"",
-        love:"",
+        love:"https://i.postimg.cc/XJ510rXs/Vector12.png",
     },
 ]
 
@@ -115,7 +115,7 @@ news.forEach( e=> {
                     <div class="contain text-left">
                         <small class="light-color">Monday 05, September 2021 | By Author</small>
                         <p class="mt-2">This Article's Title goes Here,<br> but not too long.</p>
-                        <p><img src="images/icons/Group 198.png" alt="eye"> 68 <img src="images/icons/vector12.png" alt="eye"> 86 </p>
+                        <p><img src="images/icons/Group 198.png" alt="eye"> 68 <img src="${e.love}" alt="love"> 86 </p>
                     </div>
                 </span>
             </button>
