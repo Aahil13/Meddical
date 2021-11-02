@@ -27,3 +27,7 @@
     background-color: #BFD2F8;
     color: #1F2B6C;
 }
+
+.read-link:hover{
+    text-decoration: none;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;700;800;900&family=Yeseva+One&display=swap');
+
+*, html , body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.single-news-hero{
+    position: relative;
+    height: 50vh;
+}
+
+.single-news-hero::before{
+    background-image: url("../images/Rectangle31.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    content: "";
+    position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    opacity: 0.6;
+    z-index: -20;
+}
+
+.bottom-img{
+    position: absolute;
+    bottom: 0;
+}
+
+.recent-btn{
+    height: 50px !important;
+}
+
+@media(max-width:500px){
+    .single-news-hero{
+        position: relative;
+        height: 60vh;
+    }
+    .button-section .btn{
+        font-size: 12px;
+    }
+    .recent-btn{
+        height: 50px !important;
+    }
+}
+
+
+
