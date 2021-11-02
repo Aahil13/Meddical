@@ -9,140 +9,103 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="stylesheet" href="css/news-style.css">
     <link rel="stylesheet" href="css/index-style.css">
     <link rel="stylesheet" href="css/appointment.css">
     <title>Appointment</title>
 </head>
-<body class="m-0">
-    <div class="container-fluid p-0">
-        <div class="top-most-container">
-            <div class="top-most d-flex py-2 flex-wrap justify-content-center align-items-center" >
-                <div class="meddical py-2 d-none d-md-flex ms-2 font--yeseva">
-                    <span class="text-uppercase fs-2 fw-normal"><p class="m-0 color--primary">med</p></span> <span class="text-uppercase fs-2 fw-normal"><p class="m-0 color--secondary">dical</p></span>
-                </div>
-                <div class="d-flex ms-lg-auto justify-content-center flex-wrap">
-                    <div class="work-details ms-lg-3 py-2">
-                        <div class="emergency d-flex justify-content-center">
-                            <div class="phone-icon">
-                                <span class="phone "> <i><img  src="images/Group 188.svg" alt=""></i></span>
-                                
+<body>
+    <div class="fixed">
+        <div class="TopMost py-2">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/icons/Meddical.png" alt="Meddical">
+                    </a>
+                    <div class="col">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-sm-6 col-lg-4 text-center top d-flex align-items-center justify-content-center">
+                                <img src="images/icons/Group 188.png" class="my-0">
+                                <button class="btn badge ml-1 text text-left">EMERGENCY<br><span class="lighter-color">(234)
+                                        345-354-352</span></button>
                             </div>
-                            <div class="emergency-details d-flex flex-column px-2 justify-content-center">
-                                <span><p class=" m-0 text-uppercase fs-6 fw-normal color--primary">emergency</p></span>
-                                <span><p class="m-0 color--secondary">(237) 681-812-255</p></span>
-                            </div>               
+                            <div class="col-sm-6 col-lg-4 text-center top d-flex align-items-center justify-content-center">
+                                <img src="images/icons/Group 177.png">
+                                <button class="badge btn ml-1 text-left">WORK HOURS<br><span class="lighter-color">09:00-20:00
+                                        Everyday</span></>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 text-center top d-flex align-items-center justify-content-center">
+                                <img src="images/icons/Group 178.png">
+                                <button class="btn badge ml-1 text-left">LOCATION<br><span class="lighter-color">(234)
+                                        345-354-352</span></>
+                            </div>
                         </div>
                     </div>
-                    <div class="work-details ms-lg-3 py-2">
-                        <div class="emergency d-flex justify-content-center">
-                            <div class="clock-icon">
-                                <span class="clock "> <i><img  src="images/Group 177.svg" alt=""></i></span>
-                                
-                            </div>
-                            <div class="work-hour d-flex flex-column px-2 justify-content-center">
-                                <span><p class=" m-0 text-uppercase fs-6 fw-normal color--primary">work hour</p></span>
-                                <span><p class="m-0 color--secondary">09:00 - 20:00 Everyday</p></span>
-                            </div>               
-                        </div>
-                    </div>
-                    <div class="work-details ms-lg-3 py-2">
-                        <div class="location d-flex justify-content-center">
-                            <div class="location-icon">
-                                <span class="location "> <i><img  src="images/Group 178.svg" alt=""></i></span>
-                                
-                            </div>
-                            <div class="location-details d-flex flex-column px-2 justify-content-center">
-                                <span><p class=" m-0 text-uppercase fs-6 fw-normal color--primary">location</p></span>
-                                <span><p class="m-0 color--secondary">0123 Some Place</p></span>
-                            </div>               
-                        </div>
-                    </div>
-                </div>
-                
+                </nav>
             </div>
         </div>
+        <div class="Main-nav purple-color">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand phone-nav" href="#">
+                        <img src="images/icons/Meddicals.png" alt="Meddical">
+                    </a>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="images/icons/Group 175.png" alt="" class="phone-search">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </div>
         
-
-        <div class="navbar--container">
-            <nav class="navbar navbar-expand-lg">
-                <div class="d-block d-lg-none">
-                    <a href="#">
-                        <img src="images/Meddical.png" alt="" />
-                      </a>
-                </div>
-                <div class="d-flex align-items-center d-lg-none ms-auto">
-                    <span>
-                        <button class="not--button">
-                            <i class="fa fa-search text-white fs-3" aria-hidden="true" id="search--icon" ></i>
-                        </button>
-                    </span>
-                    <input class="form-control width-auto mr-sm-2 my-1 nav-text me-2 search--bar"  id="search--bar" type="search" placeholder="&#128269 Search" aria-label="Search"/>
-                </div>
-             
-
-                <button
-                  class="navbar-toggler nav-text"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarNavDropdown"
-                  aria-controls="navbarNavDropdown"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                <span class=""><i class="fa fa-bars text-white" aria-hidden="true"></i></span></span>
-                </button>
-                <div class="collapse blue-nav navbar-collapse nav-text" id="navbarNavDropdown">
-                    <div>
-                        <ul class="navbar-nav me-auto text-center">
-                            <li class="nav-item active mx-1">
-                              <a class="nav-link" href="index.html">Home</a>
+                    <div class="collapse navbar-collapse blue-nav text-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item mx-1">
-                              <a class="nav-link" href="About-us.html">About us</a>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="About-us.html">About us</a>
                             </li>
-                            <li class="nav-item mx-1">
-                              <a class="nav-link" href="services.html">Services</a>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="services.html">Services</a>
                             </li>
-                            <li class="nav-item mx-1">
-                              <a class="nav-link" href="#">Doctors</a>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Doctors</a>
                             </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link" href="news.html">News</a>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="news.html">News</a>
                             </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link" href="#">Contact</a>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Contact</a>
                             </li>
-                          </ul>
-                    </div>
-                    <form class=" form-inline my-2 my-lg-0 mr-sm-2 search-bar ms-auto d-lg-flex align-items-center justify-content-center">
-                        <div class="d-none d-lg-flex align-items-center">
-                            <span>
-                                <button class="not--button">
-                                    <i class="fa fa-search text-white fs-3" aria-hidden="true" id="search--icon" ></i>
-                                </button>
-                            </span>
-                            <input class="form-control width-auto mr-sm-2 my-1 nav-text me-2 search--bar"  id="search--bar" type="search" placeholder="&#128269 Search" aria-label="Search"/>
+                        </ul>
+                        <div class="search-box mr-2">
+                            <img src="images/icons/Group 175.png" alt="">
                         </div>
-                        <button class="btn rounded-pill appointment-btn-link search-box-btn appointment-btn2" type="submit"><a href="appointment.html" class="text-light">Appointment</a></button>
-                    </form>
-                </div>
-            </nav>
-        </div>
-
-        <div class="section--hero position-relative" onclick= "searchBarOff()">
-            <div class="header">
-                <div class="link display--4">
-                    <p><a href="#" class="color--primary text-decoration-none">Home</a> / <a href="#" class="color--primary text-decoration-none">Appointment</a></p>
-                </div>
-                <h1 class="display--1 font--yeseva color--primary">
-                    Book an Appointment
-                </h1>
+                        <button class="btn rounded-pill appointment-btn-link search-box-btn appointment-btn3 app-btn-link"
+                            type="submit"><a href="appointment.html" class="text-light">Appointment</a></button>
+                    </div>
+        
+                </nav>
             </div>
-            <div class="circle circle__left position-absolute"></div>
-            <div class="circle circle__right position-absolute"></div>
-            <div class="radial--line"></div>
         </div>
     </div>
+    <header>
+        <div class="appointment-small-hero">
+            <img src="images/Ellipse 2.png" alt="ellipse" style="width: 300px;">
+            <div class="container">
+                <div class="small-hero-text">
+                    <p>Home/Appointment</p>
+                    <h1>Book An Appointment</h1>
+                </div>
+            </div>
+            <img src="images/icons/Group 184.png" alt="bottom" class="bottom-img">
+        </div>
+    </header>
+    
     <div class="container spacing--1">
         <section class="book--schedule row gy-5 gx-sm-1 gx-md-5 align-items-end">
             <section class="section--book col-12 col-lg-6">
@@ -240,37 +203,37 @@
                     <div class="schedule--hours">
                         <div class="schedule--hours--content spacing--2">
                             <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
-                                <h3>Monday</h3>
+                                <h3 class="text-light">Monday</h3>
                                 <div class="dash"></div>
                                 <p> 09:00 AM - 07:00 PM </p>
                             </div>
                             <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
-                                <h3>Tuesday</h3>
+                                <h3 class="text-light">Tuesday</h3>
                                 <div class="dash"></div>
                                 <p> 09:00 AM - 07:00 PM </p>
                             </div>
                             <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
-                                <h3>Wednesday</h3>
+                                <h3 class="text-light">Wednesday</h3>
                                 <div class="dash"></div>
                                 <p> 09:00 AM - 07:00 PM </p>
                             </div>
                             <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
-                                <h3>Thursday</h3>
+                                <h3 class="text-light">Thursday</h3>
                                 <div class="dash"></div>
                                 <p> 09:00 AM - 07:00 PM </p>
                             </div>
                             <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
-                                <h3>Friday</h3>
+                                <h3 class="text-light">Friday</h3>
                                 <div class="dash"></div>
                                 <p> 09:00 AM - 07:00 PM </p>
                             </div>
                             <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
-                                <h3>Saturday</h3>
+                                <h3 class="text-light">Saturday</h3>
                                 <div class="dash"></div>
                                 <p> 09:00 AM - 07:00 PM </p>
                             </div>
                             <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
-                                <h3>Sunday</h3>
+                                <h3 class="text-light">Sunday</h3>
                                 <div class="dash"></div>
                                 <p class="closed"> Closed</p>
                             </div>
@@ -283,7 +246,7 @@
                     <div class="contact d-flex justify-content-center align-items-center mt-4">
                         <div class="icon"><img src="images/icons/phone.svg" alt="phone image"></div>
                         <div class="contact-info">
-                            <h2 class="display--3"><span class="d-inline-block">Emer</span><span class="d-inline-block">gency</span></h2>
+                            <h2 class="display--3 text-light"><span class="d-inline-block">Emer</span><span class="d-inline-block">gency</span></h2>
                             <p class="color--accent display--3">
                                 (237) 681-812-255
                             </p>

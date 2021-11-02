@@ -24,6 +24,7 @@ body{
     overflow-x: hidden;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
+    position: relative;
 }
 
 .appointment-btn-link a{
@@ -52,6 +53,16 @@ h5{
 
 header{
     width: 100%;
+}
+
+.fixed{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.TopMost{
+    background-color: white;
 }
 
 .hero{
@@ -139,7 +150,7 @@ header{
         right: 0px;
         bottom: 0px;
         left: 0px;
-    opacity: 0.75;
+    opacity: 0.3;
 }
 
 .form-row .form-group{
@@ -195,6 +206,26 @@ footer input::placeholder{
     top:0;
     right: .7rem;
 
+}
+
+.service-img-box1{
+    height: 35vh;
+    background-image: url(
+        "../images/Rectangle\ 14.png"
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.service-img-box2{
+    height: 35vh;
+    background-image: url(
+        "../images/Rectangle\ 13.png"
+    );
+    background-position: center;
+     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Main-nav .navbar-expand-lg{
