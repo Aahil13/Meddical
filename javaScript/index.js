@@ -134,7 +134,7 @@ news.forEach( e=> {
                     <div class="contain text-left">
                         <small class="light-color">Monday 05, September 2021 | By Author</small>
                         <p class="mt-2">This Article's Title goes Here,<br> but not too long.</p>
-                        <p><img src="images/icons/Group 198.png" alt="eye"> 68 <img src="images/icons/vector12.png" alt="eye"> 86 </p>
+                        <p><img src="images/icons/Group 198.png" alt="eye"> 68 <img src="${e.love}" alt="eye"> 86 </p>
                     </div>
                 </span>
             </button>
@@ -153,7 +153,7 @@ news.forEach( e=> {
                     <div class="contain text-left">
                         <small class="light-color">Monday 05, September 2021 | By Author</small>
                         <p class="mt-2">This Article's Title goes Here,<br> but not too long.</p>
-                        <p><img src="images/icons/Group 198.png" alt="eye"> 68 <img src="images/icons/vector12.png" alt="eye"> 86 </p>
+                        <p><img src="images/icons/Group 198.png" alt="eye"> 68 <img src="${e.love}" alt="eye"> 86 </p>
                     </div>
                 </span>
             </button>
