@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.single-service-hero{
+    position: relative;
+    height: 50vh;
+}
+
+.single-service-hero::before{
+    background-image: url("../images/Rectangle33.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    content: "";
+    position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    opacity: 0.6;
+    z-index: -20;
+}
+
+.passion-img{
+    background-image: url("../images/Rectangle133.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+    width: 100%;
+}
+
+.Get-In-Touch h5, .team{
+    margin-top:7rem;
+}
+
+@media(max-width:769px){
+    .carousel-item .vanish{
+        display:none;
+    }
+}

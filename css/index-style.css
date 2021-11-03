@@ -31,6 +31,10 @@ body{
     text-decoration: none;
 }
 
+.direction-link:hover{
+    text-decoration: none;
+}
+
 h1{
     font-family: 'Yeseva One', cursive;
     font-size: 48px;
@@ -318,6 +322,12 @@ footer input::placeholder{
    .blue-nav{
        background-color: #BFD2F8 !important;
    }
+}
+
+@media(max-width:769px){
+    .vanish{
+        display:none;
+    }
 }
 
 
