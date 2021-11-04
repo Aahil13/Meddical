@@ -54,28 +54,28 @@ let news = [
         date:"Monday 05, September 2021 | By Author",
         text:"This Article's Title goes Here, but not too long.",
         eye:"",
-        love:"",
+        love:"https://i.postimg.cc/XJ510rXs/Vector12.png",
     },
     {
         img:"",
         date:"Monday 05, September 2021 | By Author",
         text:"This Article's Title goes Here, but not too long.",
         eye:"",
-        love:"",
+        love:"https://i.postimg.cc/XJ510rXs/Vector12.png",
     },
     {
         img:"",
         date:"Monday 05, September 2021 | By Author",
         text:"This Article's Title goes Here, but not too long.",
         eye:"",
-        love:"",
+        love:"https://i.postimg.cc/XJ510rXs/Vector12.png",
     },
     {
         img:"",
         date:"Monday 05, September 2021 | By Author",
         text:"This Article's Title goes Here, but not too long.",
         eye:"",
-        love:"",
+        love:"https://i.postimg.cc/XJ510rXs/Vector12.png",
     },
 ]
 
