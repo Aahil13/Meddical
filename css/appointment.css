@@ -491,4 +491,8 @@ body {
     padding: 2em 1em;
   }
 }
+
+.selector{
+  display: none;
+}
 /*# sourceMappingURL=appointment.css.map */

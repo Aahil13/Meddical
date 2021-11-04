@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="appointment-style.css">
     <link rel="stylesheet" href="css/index-style.css">
 </head>
 <body>
@@ -233,54 +234,59 @@
     </section>
     <section class="Appointment my-5 py-5">
         <div class="container">
-            <div class="row">
+            <div class="row section--book--text">
                 <div class="Appointment-text col-md-6">
                     <h3 class="light-color">Book An Appointment</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quidem dolorem magnam aliquid, fuga qui libero reiciendis numquam voluptatibus esse, quae quam dicta ipsum! Accusantium facere ab maxime voluptates illo.</p>
                 </div>
-                <div class="Appointment-form col-md-6">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-6 pr-0 text-light" >
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
-                            </div>
-                            <div class="form-group col-md-6 pl-0">
-                                <select id="inputState" class="form-control">
+                <div class="section--book--select col-md-6">
+                    <form class="row">
+                        <div class="col-12 col-lg-6 purple-color px-0">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="col-12 col-lg-6 purple-color px-0">
+                            <div class="select">
+                                <select class="select-element form-control custom-select" id="gender">
                                     <option selected>Gender</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Others</option>
+                                    <option value="female">Female</option>
+                                    <option value="male">Male</option>
                                 </select>
+                                <img class="selector" src="images/icons/dropdown.svg" alt="select">
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6 pr-0">
-                                <input type="text" class="form-control" id="inputAddress" placeholder="Email">
-                            </div>
-                            <div class="form-group col-md-6 pl-0">
-                                <input type="text" class="form-control" id="inputAddress2" placeholder="Phone">
-                            </div>
+                
+                        <div class="col-12 col-lg-6 purple-color px-0">
+                            <input type="email" class="form-control " id="inputEmail" placeholder="Email">
                         </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6 pr-0">
-                                <input type="date" id="inputState" class="form-control">
-                            </div>
-                            <div class="form-group col-md-6 pl-0">
-                                <input type="time" id="inputState" class="form-control">
-                            </div>
+                
+                        <div class="col-12 col-lg-6 purple-color px-0">
+                            <input type="tel" class="form-control" id="phonenumber" placeholder="Phone">
                         </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6 pr-0">
-                                <select id="inputState" class="form-control">
+                
+                        <div class="col-12 col-lg-6 purple-color px-0">
+                            <input type="date" class="form-control" id="date">
+                        </div>
+                
+                        <div class="col-12 col-lg-6 purple-color px-0">
+                            <input type="time" class="form-control" id="time">
+                        </div>
+                
+                        <div class="col-12 col-lg-6 purple-color px-0">
+                            <div class="select">
+                                <select class="select-element form-control custom-select" id="doctor">
                                     <option selected>Doctor</option>
                                     <option value="001">Dr. Ben Carson</option>
                                     <option value="004">Dr. Norman Borlaug </option>
                                     <option value="007">Dr. Venus Nicolino</option>
                                     <option value="009">Dr. Humberto Palladino</option>
                                 </select>
+                                <img class="selector" src="images/icons/dropdown.svg" alt="select">
                             </div>
-                            <div class="form-group col-md-6 pl-0">
-                                <select id="inputState" class="form-control">
+                        </div>
+                
+                        <div class="col-12 col-lg-6 purple-color px-0">
+                            <div class="select">
+                                <select class="select-element form-control custom-select" id="department">
                                     <option selected>Department</option>
                                     <option value="001">Gynaecology</option>
                                     <option value="004">Paediatrics </option>
@@ -289,12 +295,17 @@
                                     <option value="009">Cardiology</option>
                                     <option value="009">Dental</option>
                                 </select>
+                                <img class="selector" src="images/icons/dropdown.svg" alt="select">
                             </div>
                         </div>
-                        <div class="form-group my-0">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
+                
+                        <div class="col-12 purple-color px-0">
+                            <textarea class="form-control" id="message" rows="8" placeholder="Message"></textarea>
                         </div>
-                        <button type="submit" class="btn col-lg-12 my-0">SUBMIT</button>
+                
+                        <div class="col-12 px-0">
+                            <button type="submit" class="btn btn-primary text-uppercase color--primary">Submit</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -565,8 +576,8 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <strong>Newsletter</strong>
                     <div class="input-box my-3">
-                        <input type="text" placeholder="Enter your email Address" class="form-group mb-0 pr-5 px-3 appointment-btn2">
-                        <img src="images/icons/Vector8.png" alt="icons">
+                        <input type="text" placeholder="Enter your email Address" class="form-group mb-0 pr-5 pl-1 pr-3 py-2 appointment-btn2">
+                        <img src="images/icons/Vector8.png" alt="icons" class="my-2">
                     </input>
                     </div>
                 </div> 

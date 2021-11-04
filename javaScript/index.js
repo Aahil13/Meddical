@@ -86,6 +86,7 @@ let news = [
         text:"This Article's Title goes Here, but not too long.",
         eye:"",
         love:"https://i.postimg.cc/XJ510rXs/Vector12.png",
+        display:"vanish"
     },
     {
         img:"",
