@@ -1,3 +1,5 @@
+// for the news section
+
 let news = [
     {
         img:"",
@@ -12,6 +14,7 @@ let news = [
         text:"This Article's Title goes Here, but not too long.",
         eye:"",
         love:"https://i.postimg.cc/XJ510rXs/Vector12.png",
+        display:"vanish"
     },
     {
         img:"",
@@ -31,7 +34,7 @@ let news = [
 
 // for the news carousel
 
-let infoGrid = document.getElementById("doctors-news-grid");
+let infoGrid = document.getElementById("news-grid");
 let html1 ="";
 news.forEach( e=> {
     html1 += `
@@ -50,7 +53,7 @@ news.forEach( e=> {
     infoGrid.innerHTML = html1;
 })
 
-let infoGrid1 = document.getElementById("doctors-news-grid1");
+let infoGrid1 = document.getElementById("news-grid1");
 let html2 ="";
 news.forEach( e=> {
     html2 += `
@@ -60,7 +63,7 @@ news.forEach( e=> {
                     <div class="contain text-left">
                         <small class="light-color">Monday 05, September 2021 | By Author</small>
                         <p class="mt-2">This Article's Title goes Here,<br> but not too long.</p>
-                        <p><img src="images/icons/Group 198.png" alt="eye"> 68 <img src="images/icons/vector12.png" alt="eye"> 86 </p>
+                        <p><img src="images/icons/Group 198.png" alt="eye"> 68 <img src="${e.love}" alt="eye"> 86 </p>
                     </div>
                 </span>
             </button>
@@ -69,7 +72,7 @@ news.forEach( e=> {
     infoGrid1.innerHTML = html2;
 })
 
-let infoGrid2 = document.getElementById("doctors-news-grid2");
+let infoGrid2 = document.getElementById("news-grid2");
 let html3 ="";
 news.forEach( e=> {
     html3 += `
@@ -79,60 +82,11 @@ news.forEach( e=> {
                     <div class="contain text-left">
                         <small class="light-color">Monday 05, September 2021 | By Author</small>
                         <p class="mt-2">This Article's Title goes Here,<br> but not too long.</p>
-                        <p><img src="images/icons/Group 198.png" alt="eye"> 68 <img src="images/icons/vector12.png" alt="eye"> 86 </p>
+                        <p><img src="images/icons/Group 198.png" alt="eye"> 68 <img src="${e.love}" alt="eye"> 86 </p>
                     </div>
                 </span>
             </button>
         </div>
     `
     infoGrid2.innerHTML = html3;
-})
-
-let getInTouchArray = [
-    {
-        imgUrl : "Group 188",
-        head : "EMERGENCY",
-        para1: "(234) 575-746-463",
-        para2: "(234) 746-722-573",
-        blue:"appointment-btn2"
-    },
-    {
-        imgUrl : "Group 179",
-        head : "LOCATION",
-        para1: "9475 Some place",
-        para2: "2452 Some country",
-        white:'text-light',
-        color: "purple-color",
-    },
-    {
-        imgUrl : "Group 202",
-        head : "EMAIL",
-        para1: "Teamrio@rio.com",
-        para2: "wedidit@rio.com",
-        blue:"appointment-btn2"
-    },
-    {
-        imgUrl : "Group 177",
-        head : "WORKING HOURS",
-        para1: "Mon-Sat 09:00-20:00",
-        para2: "Sunday Emergency only",
-        blue:"appointment-btn2"
-    }
-]
-
-let GetInTouch = document.getElementById("git")
-let html4 ="";
-getInTouchArray.forEach( e=> {
-    html4 += `
-        <div class="card col-12 col-sm-6 col-lg-3 text-left light-color border-0">
-                <li class="list-group-item mb-3 ${e.color} ${e.blue}">
-                    <img src="images/icons/${e.imgUrl}.png" alt="icon" class="mb-2" style="height:1.5rem">
-                    <h6 class="color ${e.white}">${e.head}</h6>
-                    <P class="color ${e.white}">${e.para1}</P>
-                    <P class="color ${e.white}">${e.para2}</P>
-                </li>
-            </ul>
-        </div>
-    `
-    GetInTouch.innerHTML = html4;
 })

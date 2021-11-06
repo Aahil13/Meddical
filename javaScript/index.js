@@ -110,7 +110,7 @@ let infoGrid = document.getElementById("news-grid");
 let html1 ="";
 news.forEach( e=> {
     html1 += `
-        <div class="col-md-6 mb-3">
+        <div class="col-md-6 mb-3 d-flex justify-content-center">
             <button type="button" class="btn py-0 btn-lg d-flex align-items-center border border-light">
                 <img src="images/Rectangle 34.png" style="height:120px"><span class="badge">
                     <div class="contain text-left">
@@ -129,7 +129,7 @@ let infoGrid1 = document.getElementById("news-grid1");
 let html2 ="";
 news.forEach( e=> {
     html2 += `
-        <div class="col-md-6 mb-3">
+        <div class="col-md-6 mb-3 d-flex justify-content-center">
             <button type="button" class="btn py-0 btn-lg d-flex align-items-center border border-light">
                 <img src="images/Rectangle 34.png" style="height:120px"><span class="badge">
                     <div class="contain text-left">
@@ -148,7 +148,7 @@ let infoGrid2 = document.getElementById("news-grid2");
 let html3 ="";
 news.forEach( e=> {
     html3 += `
-        <div class="col-md-6 mb-3">
+        <div class="col-md-6 mb-3 d-flex justify-content-center">
             <button type="button" class="btn py-0 btn-lg d-flex align-items-center border border-light">
                 <img src="images/Rectangle 34.png" style="height:120px"><span class="badge">
                     <div class="contain text-left">
